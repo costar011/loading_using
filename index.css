@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 50px;
+    height: 5px;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    border-radius: 10px;
+    animation: anim 4s infinite;
+    position: relative;
+}
+
+.box::before {
+    content: " ";
+}
