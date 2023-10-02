@@ -53,3 +53,25 @@ body {
         transform: rotate(360deg);
     }
 }
+
+@keyframes anim2 {
+    0%, 100% {
+        transform: translateY();
+    }
+    50% {
+        transform: translateY(-45px) , translateX(20px);
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@keyframes anim3 {
+    0%, 100% {
+        transform: translateY();
+    }
+    50% {
+        transform: translateY(-45px) , translateX(-20px);
+        width: 10px;
+        height: 10px;
+    }
+}
