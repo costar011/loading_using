@@ -37,4 +37,19 @@ body {
     position: absolute;
     right: 0;
     bottom: 50px;
+
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    animation: anim3 2s infinite;
+}
+
+@keyframes anim {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(360deg);
+    }
 }
