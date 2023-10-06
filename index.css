@@ -45,33 +45,3 @@ body {
     animation: anim3 2s infinite;
 }
 
-@keyframes anim {
-    0%, 100% {
-        transform: rotate(0deg);
-    }
-    50% {
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes anim2 {
-    0%, 100% {
-        transform: translateY();
-    }
-    50% {
-        transform: translateY(-45px) , translateX(20px);
-        width: 10px;
-        height: 10px;
-    }
-}
-
-@keyframes anim3 {
-    0%, 100% {
-        transform: translateY();
-    }
-    50% {
-        transform: translateY(-45px) , translateX(-20px);
-        width: 10px;
-        height: 10px;
-    }
-}
