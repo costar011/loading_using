@@ -45,3 +45,8 @@ body {
     animation: anim3 2s infinite;
 }
 
+@keyframes anim {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+}
